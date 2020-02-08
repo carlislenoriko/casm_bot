@@ -1,4 +1,3 @@
-masterCards = [
     {"id":1,"cardType":"A","text":"Flying sex snakes.","numAnswers":0,"expansion": "Base"},
     {"id":2,"cardType":"A","text":"Michelle Obama's arms.","numAnswers":0,"expansion": "Base"},
     {"id":3,"cardType":"A","text":"German dungeon porn.","numAnswers":0,"expansion": "Base"},
@@ -219,7 +218,7 @@ masterCards = [
     {"id":218,"cardType":"A","text":"Children on leashes.","numAnswers":0,"expansion": "Base"},
     {"id":219,"cardType":"A","text":"Balls.","numAnswers":0,"expansion": "Base"},
     {"id":220,"cardType":"A","text":"Homeless people.","numAnswers":0,"expansion": "Base"},
-    {"id":221,"cardType":"A","text":"Eating all of the cookies before the AIDS bake-sale.","numAnswers":0,"expansion": "Base"},
+    {"id":221,"cardType":"A","text":"Eating all of the cookies before the bake-sale.","numAnswers":0,"expansion": "Base"},
     {"id":222,"cardType":"A","text":"Old-people smell.","numAnswers":0,"expansion": "Base"},
     {"id":223,"cardType":"A","text":"Farting and walking away.","numAnswers":0,"expansion": "Base"},
     {"id":224,"cardType":"A","text":"The inevitable heat death of the universe.","numAnswers":0,"expansion": "Base"},
@@ -340,7 +339,7 @@ masterCards = [
     {"id":339,"cardType":"A","text":"Being a dick to children.","numAnswers":0,"expansion": "Base"},
     {"id":340,"cardType":"A","text":"Famine.","numAnswers":0,"expansion": "Base"},
     {"id":341,"cardType":"A","text":"Chainsaws for hands.","numAnswers":0,"expansion": "Base"},
-    {"id":342,"cardType":"A","text":"A gypsy curse.","numAnswers":0,"expansion": "Base"},
+    {"id":342,"cardType":"A","text":"A curse.","numAnswers":0,"expansion": "Base"},
     {"id":343,"cardType":"A","text":"AXE Body Spray.","numAnswers":0,"expansion": "Base"},
     {"id":344,"cardType":"A","text":"The Force.","numAnswers":0,"expansion": "Base"},
     {"id":345,"cardType":"A","text":"Explosions.","numAnswers":0,"expansion": "Base"},
@@ -2953,4 +2952,3 @@ masterCards = [
     {"id":2952,"cardType":"Q","text":"To become a true Yanomamo warrior, you must prove that you can withstand _ without crying out.","numAnswers":1,"expansion":"CAHe6"},
     {"id":2953,"cardType":"Q","text":"Y'all ready to get this thing started? I'm Nick Cannon, and this is America's Got _.","numAnswers":1,"expansion":"CAHe6"},
     {"id":2954,"cardType":"Q","text":"If you had to describe the Card Czar, using only one of the cards in your hand, which one would it be?","numAnswers":1,"expansion":"CAHe6"}
-]

@@ -5,36 +5,36 @@ import random
 import pprint
 import json
 
-with open('cards.json') as f:
-  cards = json.load(f)
+# with open('cards.json') as f:
+#   cards = json.load(f)
 
-pprint(cards[2])
+# pprint(cards[2])
 
 # bring in image and get dimensions
-# lolpic = Image.open('sailormoon.jpg')
-# height = lolpic.size[1]
-# width = lolpic.size[0]
+lolpic = Image.open('sailormoon.jpg')
+height = lolpic.size[1]
+width = lolpic.size[0]
 
-# # number checks
-# # print(lolpic.size)
-# # print("height: " + str(height))
-# # print("width: " + str(width))
+# number checks
+# print(lolpic.size)
+# print("height: " + str(height))
+# print("width: " + str(width))
 
-# draw = ImageDraw.Draw(lolpic)
-# font = ImageFont.truetype('Verdana.ttf', size=36)
+draw = ImageDraw.Draw(lolpic)
+font = ImageFont.truetype('Verdana.ttf', size=36)
  
-# # starting position of the message
-# # x is starting position from the left
-# # y is starting position from the top
+# starting position of the message
+# x is starting position from the left
+# y is starting position from the top
 
-# x = 30
-# y = height-50
-# message = "BOOP"
-# # color = 'rgb(255, 255, 255)' # white color
-# color = 'rgb(0, 0, 0)' # black color
+x = 30
+y = height-50
+message = "BOOP"
+# color = 'rgb(255, 255, 255)' # white color
+color = 'rgb(0, 0, 0)' # black color
 
-# # draw the message on the background
-# draw.text((x, y), message, fill=color, font=font)
+# draw the message on the background
+draw.text((x, y), message, fill=color, font=font)
  
-# # save the edited image
-# lolpic.save('newboop.jpg')
+# save the edited image
+lolpic.save('newboop.jpg')
