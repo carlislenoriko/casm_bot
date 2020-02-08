@@ -21,7 +21,7 @@ width = lolpic.size[0]
 # print("width: " + str(width))
 
 draw = ImageDraw.Draw(lolpic)
-font = ImageFont.truetype('Verdana.ttf', size=36)
+font = ImageFont.truetype('Verdana.ttf', size=48)
  
 # starting position of the message
 # x is starting position from the left
