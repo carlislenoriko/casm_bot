@@ -109,10 +109,6 @@
 "pick": 1
 },
 {
-"text": "What did I bring back from Mexico?",
-"pick": 1
-},
-{
 "text": "What are my parents hiding from me?",
 "pick": 1
 },
@@ -157,10 +153,6 @@
 "pick": 1
 },
 {
-"text": "While the United States raced the Soviet Union to the moon, the Mexican government funneled millions of pesos into research on _.",
-"pick": 1
-},
-{
 "text": "Coming to Broadway this season, _: The Musical.",
 "pick": 1
 },
@@ -201,14 +193,6 @@
 "pick": 1
 },
 {
-"text": "What's Teach for America using to inspire inner city students to succeed?",
-"pick": 1
-},
-{
-"text": "In Michael Jackson's final moments, he thought about _.",
-"pick": 1
-},
-{
 "text": "Why do I hurt all over?",
 "pick": 1
 },
@@ -223,14 +207,6 @@
 {
 "text": "What's my anti-drug?",
 "pick": 1
-},
-{
-"text": "And the Academy Award for _ goes to _.",
-"pick": 2
-},
-{
-"text": "For my next trick, I will pull _ out of _.",
-"pick": 2
 },
 {
 "text": "_: Good to the last drop.",
@@ -249,59 +225,19 @@
 "pick": 1
 },
 {
-"text": "I never truly understood _ until I encountered _.",
-"pick": 2
+"text": "Watching Sailor Moon is a slippery slope that leads to _.",
+"pick": 1
 },
 {
-"text": "Rumor has it that Vladimir Putin's favorite delicacy is _ stuffed with _.",
-"pick": 2
+"text": "In a world ravaged by the Negaverse, our only solace is _.",
+"pick": 1
 },
 {
-"text": "Lifetime&reg; presents _, the story of _.",
-"pick": 2
-},
-{
-"text": "Make a haiku.",
-"pick": 3
-},
-{
-"text": "In M. Night Shyamalan's new movie, Bruce Willis discovers that _ had really been _ all along.",
-"pick": 2
-},
-{
-"text": "_ is a slippery slope that leads to _.",
-"pick": 2
-},
-{
-"text": "In a world ravaged by _, our only solace is _.",
-"pick": 2
-},
-{
-"text": "That's right, I killed _. How, you ask? _.",
-"pick": 2
-},
-{
-"text": "When I was tripping on acid, _ turned into _.",
-"pick": 2
-},
-{
-"text": "_ + _ = _.",
-"pick": 3
-},
-{
-"text": "What's the next superhero/sidekick duo?",
-"pick": 2
+"text": "That's right, I killed Tuxedo Mask. How, you ask? _.",
+"pick": 1
 },
 {
 "text": "Dear Abby,<br><br>I'm having some trouble with _ and would like your advice.",
-"pick": 1
-},
-{
-"text": "After the earthquake, Sean Penn brought _ to the people of Haiti.",
-"pick": 1
-},
-{
-"text": "In L.A. County Jail, word is you can trade 200 cigarettes for _.",
 "pick": 1
 },
 {
@@ -309,16 +245,8 @@
 "pick": 1
 },
 {
-"text": "Life for American Indians was forever changed when the White Man introduced them to _.",
-"pick": 1
-},
-{
 "text": "Next on ESPN2, the World Series of _.",
 "pick": 1
-},
-{
-"text": "Step 1: _. Step 2: _. Step 3: Profit.",
-"pick": 2
 },
 {
 "text": "Here is the church<br>Here is the steeple<br>Open the doors<br>And there is _.",
@@ -326,10 +254,6 @@
 },
 {
 "text": "How did I lose my virginity?",
-"pick": 1
-},
-{
-"text": "During his childhood, Salvador Dal&iacute; produced hundreds of paintings of _.",
 "pick": 1
 },
 {
@@ -342,10 +266,6 @@
 },
 {
 "text": "The Smithsonian Museum of Natural History has just opened an exhibit on _.",
-"pick": 1
-},
-{
-"text": "Daddy, why is Mommy crying?",
 "pick": 1
 }
 ]
