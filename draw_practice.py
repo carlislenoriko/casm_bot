@@ -5,10 +5,13 @@ import random
 import pprint
 import json
 
-# with open('cards.json') as f:
-#   cards = json.load(f)
+# load white cards json
+with open('white_cards.json') as boop:
+  white_cards = json.load(boop)
 
-# pprint(cards[2])
+# randomly choose white card
+answer = (random.choice(white_cards["whiteCards"]))
+print(answer)
 
 # bring in image and get dimensions
 lolpic = Image.open('sailormoon.jpg')
@@ -21,20 +24,18 @@ width = lolpic.size[0]
 # print("width: " + str(width))
 
 draw = ImageDraw.Draw(lolpic)
-font = ImageFont.truetype('Verdana.ttf', size=48)
+font = ImageFont.truetype('Verdana.ttf', size=36)
  
 # starting position of the message
 # x is starting position from the left
 # y is starting position from the top
-
 x = 30
 y = height-50
-message = "BOOP"
 # color = 'rgb(255, 255, 255)' # white color
 color = 'rgb(0, 0, 0)' # black color
 
 # draw the message on the background
-draw.text((x, y), message, fill=color, font=font)
+draw.text((x, y), answer, fill=color, font=font)
  
 # save the edited image
 lolpic.save('newboop.jpg')
