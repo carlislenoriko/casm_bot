@@ -4,6 +4,7 @@ from PIL import Image, ImageDraw, ImageFont
 import random
 import pprint
 import json
+import textwrap
 
 # load white cards json
 with open('white_cards.json') as boop:
@@ -29,13 +30,18 @@ font = ImageFont.truetype('Verdana.ttf', size=36)
 # starting position of the message
 # x is starting position from the left
 # y is starting position from the top
-x = 30
+# x = 30
 y = height-50
 # color = 'rgb(255, 255, 255)' # white color
 color = 'rgb(0, 0, 0)' # black color
 
+# breaking up longer answers into multiple lines
+text_block = textwrap.wrap(answer, width=30)
+
+answer_size = draw.textsize(answer)[0]
+
 # draw the message on the background
-draw.text((x, y), answer, fill=color, font=font)
+draw.text(((width - answer_size)/2, y), answer, fill=color, font=font)
  
 # save the edited image
 lolpic.save('newboop.jpg')
