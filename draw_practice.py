@@ -19,29 +19,29 @@ lolpic = Image.open('sailormoon.jpg')
 height = lolpic.size[1]
 width = lolpic.size[0]
 
-# number checks
-# print(lolpic.size)
-# print("height: " + str(height))
-# print("width: " + str(width))
-
 draw = ImageDraw.Draw(lolpic)
-font = ImageFont.truetype('Verdana.ttf', size=36)
+font = ImageFont.truetype('Verdana.ttf', size=18)
  
 # starting position of the message
 # x is starting position from the left
-# y is starting position from the top
+# y is starting position from the bottom
 # x = 30
-y = height-50
+# y = height-50
 # color = 'rgb(255, 255, 255)' # white color
 color = 'rgb(0, 0, 0)' # black color
+ 
+# answer_size = draw.textsize(answer)[0]
 
 # breaking up longer answers into multiple lines
-text_block = textwrap.wrap(answer, width=30)
-
-answer_size = draw.textsize(answer)[0]
+text_block = textwrap.wrap(answer, width=45)
 
 # draw the message on the background
-draw.text(((width - answer_size)/2, y), answer, fill=color, font=font)
+current_height = height-75
+pad = 10
+for line in text_block:
+  w, h = draw.textsize(line, font=font)
+  draw.text(((width - w)/2, current_height), line, fill=color, font=font)
+  current_height += (h+pad)
  
 # save the edited image
 lolpic.save('newboop.jpg')
