@@ -41,12 +41,12 @@ current_height = height-75
 pad = 10
 for line in text_block:
   w, h = draw.textsize(line, font=font)
-  # fake out the black outline behind the white text
+  # fake out the black outline behind the yellow text
   draw.text((((width - w)/2)-2, current_height-2), line, fill=black_fill, font=font)
   draw.text((((width - w)/2)-2, current_height+2), line, fill=black_fill, font=font)
   draw.text((((width - w)/2)+2, current_height-2), line, fill=black_fill, font=font)
   draw.text((((width - w)/2)+2, current_height+2), line, fill=black_fill, font=font)
-  # draw the white text
+  # draw the yellow text
   draw.text(((width - w)/2, current_height), line, fill=yellow_fill, font=font)
   current_height += (h+pad)
  
