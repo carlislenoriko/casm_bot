@@ -2,6 +2,7 @@ import json
 import random
 import tweepy
 import secrets
+import os
 
 # twitter auth stuff
 auth = tweepy.OAuthHandler(secrets.consumer_key, secrets.consumer_secret)
@@ -16,3 +17,6 @@ total_questions = len(black_cards["blackCards"])
 
 # Works to choose a string from the black cards json
 question = (black_cards["blackCards"][random.randrange(total_questions)]["text"])
+
+# successfully tweets a question!
+api.update_status(question)
