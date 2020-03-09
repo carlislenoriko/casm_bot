@@ -19,4 +19,8 @@ total_questions = len(black_cards["blackCards"])
 question = (black_cards["blackCards"][random.randrange(total_questions)]["text"])
 
 # successfully tweets a question!
-api.update_status(question)
+# api.update_status(question)
+
+# upload media to twitter?
+media_object = api.media_upload("lolreiserena.png")
+api.update_status(question, media_ids=[media_object.media_id])
