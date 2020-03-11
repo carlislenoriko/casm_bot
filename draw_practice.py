@@ -15,7 +15,7 @@ answer = (random.choice(white_cards["whiteCards"]))
 print(answer)
 
 # bring in image and get dimensions
-lolpic = Image.open('sailormoon.jpg')
+lolpic = Image.open('/Users/carlislefujiyoshi/Documents/bottybots/casm/screencaps/unnamed-1.jpg')
 height = lolpic.size[1]
 width = lolpic.size[0]
 
@@ -51,4 +51,4 @@ for line in text_block:
   current_height += (h+pad)
  
 # save the edited image
-lolpic.save('newboop.jpg')
+lolpic.save('/Users/carlislefujiyoshi/Documents/bottybots/casm/subtitled/newboop.jpg')
