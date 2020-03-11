@@ -15,7 +15,7 @@ answer = (random.choice(white_cards["whiteCards"]))
 print(answer)
 
 # bring in image and get dimensions
-lolpic = Image.open('/Users/carlislefujiyoshi/Documents/bottybots/casm/screencaps/unnamed-1.jpg')
+lolpic = Image.open('/Users/carlislefujiyoshi/Documents/bottybots/casm/screencaps/unnamed-2.jpg')
 height = lolpic.size[1]
 width = lolpic.size[0]
 
@@ -42,13 +42,19 @@ pad = 10
 for line in text_block:
   w, h = draw.textsize(line, font=font)
   # fake out the black outline behind the yellow text
+  # four corners
   draw.text((((width - w)/2)-2, current_height-2), line, fill=black_fill, font=font)
   draw.text((((width - w)/2)-2, current_height+2), line, fill=black_fill, font=font)
   draw.text((((width - w)/2)+2, current_height-2), line, fill=black_fill, font=font)
   draw.text((((width - w)/2)+2, current_height+2), line, fill=black_fill, font=font)
+  # other
+  draw.text((((width - w)/2), current_height+2), line, fill=black_fill, font=font)
+  draw.text((((width - w)/2)+2, current_height), line, fill=black_fill, font=font)
+  draw.text((((width - w)/2)-2, current_height), line, fill=black_fill, font=font)
+  draw.text((((width - w)/2), current_height-2), line, fill=black_fill, font=font)
   # draw the yellow text
   draw.text(((width - w)/2, current_height), line, fill=yellow_fill, font=font)
   current_height += (h+pad)
  
-# save the edited image
-lolpic.save('/Users/carlislefujiyoshi/Documents/bottybots/casm/subtitled/newboop.jpg')
+# save the edited image in subtitled folder
+lolpic.save('/Users/carlislefujiyoshi/Documents/bottybots/casm/subtitled/new2.jpg')
