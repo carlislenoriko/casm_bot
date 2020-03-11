@@ -22,5 +22,5 @@ question = (black_cards["blackCards"][random.randrange(total_questions)]["text"]
 # api.update_status(question)
 
 # upload media to twitter?
-media_object = api.media_upload("/Users/carlislefujiyoshi/Documents/bottybots/casm/subtitled/newboop.jpg")
+media_object = api.media_upload("/Users/carlislefujiyoshi/Documents/bottybots/casm/subtitled/new2.jpg")
 api.update_status(question, media_ids=[media_object.media_id])
