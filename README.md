@@ -1,15 +1,12 @@
 # CASM
 
-A bot in progress! The bulk of it is a meme generator, taking an image and overlaying text.
+A Twitter bot combining Sailor Moon and Cards Against Humanity. 
 
 ## Built With
 
 * Python 3.6
 * Pillow
-
-## Please Note
-
-Originally meant to be a bot on Twitter, Twitter is now much more stringent with their API keys. Hopefully it'll become a real bot but it may just live on my computer.
+* Tweepy
 
 ## License
 
